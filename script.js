@@ -1,9 +1,16 @@
-let a = parseInt(prompt("Type First number:"))
-let b = parseInt(prompt("Type Second number:"))
+let a = parseInt(prompt("Type First number:"));
+let b = parseInt(prompt("Type Second number:"));
 
-let x = a+b;
-let y = a-b;
-let z = a*b;
-let k = a/b;
 
-alert(x)
+let plusOpn =(a + '+' + b + '=' + (parseInt(a)+parseInt(b)));
+
+let minusOpn = (a + '-' + b + '=' + (parseInt(a)-parseInt(b)));
+
+let multiOpn = ( a + '*' + b + '=' + (parseInt(a)*parseInt(b)));
+
+let divOpn = ( a + '/' + b + '=' + (parseInt(a)/parseInt(b)))
+
+
+
+alert(plusOpn + '    ' + minusOpn + '     ' + multiOpn + '     ' + divOpn )
+
